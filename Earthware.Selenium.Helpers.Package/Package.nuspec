@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Earthware.Selenium.Helpers</id>
+    <version>1.1.0</version>
+    <title>Earthware.Selenium.Helpers</title>
+    <authors>Earthware</authors>
+    <owners></owners>
+    <description>
+      Earthware's selenium helpers, containing WebDriver extension methods, a data generator, base NUnit tests, and a set of BrowserStack drivers. See the GitHub readme for more details.
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      Earthware's selenium helpers
+    </summary>
+    <language>en-GB</language>
+    <projectUrl>https://github.com/Earthware/Earthware.Selenium.Helpers</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <copyright>Copyright 2016</copyright>
+    <dependencies>
+        <group targetFramework="net40">
+          <dependency id="NUnit" version="3.4.1" />
+          <dependency id="NUnit.ConsoleRunner" version="3.4.1" />
+          <dependency id="NUnit.Runners" version="3.4.1" />
+          <dependency id="Selenium.Support" version="2.53.1" />
+          <dependency id="Selenium.WebDriver" version="2.53.1" />
+          <dependency id="Selenium.WebDriver.ChromeDriver" version="2.23.0.1" />
+        </group>
+    </dependencies>
+    <references></references>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>
