@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Earthware</authors>
+    <projectUrl>https://github.com/Earthware/Earthware.Selenium.Helpers</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Earthware's selenium helpers, containing WebDriver extension methods, a data generator, base NUnit tests, and a set of BrowserStack drivers. See the GitHub readme for more details.</description>
+    <copyright>Copyright 2016</copyright>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework="net40" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Earthware.Selenium.Helpers.dll" target="lib\net40\Earthware.Selenium.Helpers.dll" />
+  </files>
+</package>
